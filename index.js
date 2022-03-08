@@ -1,8 +1,5 @@
-var express = require('express');
-var app = express();
-
-app.get('/', function(req, res){
-   res.send("Hello world!");
-});
-
-app.listen(3000);
+const server = require('./server')
+const PORT = process.env.PORT || 4000
+server.listen(PORT, () => {
+    console.log(`This app running on http://localhost:${PORT}!`)
+})
