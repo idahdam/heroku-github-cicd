@@ -24,4 +24,4 @@ jobs:
           args: deploy --dir=build --prod
           heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
           heroku_app_name: 'heroku-github-cicd'
-          heroku_email: 'idahdam.bs@gmail.com
+          heroku_email: 'idahdam.bs@gmail.com'
